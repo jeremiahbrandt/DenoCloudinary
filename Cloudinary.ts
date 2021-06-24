@@ -1,4 +1,4 @@
-import { Sha256 } from "https://deno.land/std/hash/sha256.ts";
+import { Sha256 } from "https://deno.land/std@0.99.0/hash/sha256.ts";
 
 type ErrorCode = { message: string };
 interface IUploadResponse {
